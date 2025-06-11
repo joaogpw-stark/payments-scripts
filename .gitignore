@@ -192,3 +192,42 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Python virtual environment directories
+venv/
+.venv/
+env/
+.env/
+
+# Python cache and bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*~
+
+# Editor and IDE specific files
+.vscode/        # VS Code
+.idea/          # PyCharm
+*.sublime-project
+*.sublime-workspace
+.DS_Store       # macOS specific file
+Thumbs.db       # Windows specific file
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.ipynb_checkpoints/ # Jupyter notebooks
+
+# Logs and databases (if not intended for repo)
+*.log
+*.db
+*.sqlite3
+
+# Your specific output files (like the CSVs we discussed)
+*.csv
